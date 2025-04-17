@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-primary: #909090 ;
+    --color-secondary: #eeeeee ;
+    --color-ocean: #1d2b53 ; 
+    --color-blue: #C6DBF0 ;
+}
+
+@theme {
+    --animate-fade: fade-in-scale 0.3s ease-out;
+  
+    @keyframes fade-in-scale {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
