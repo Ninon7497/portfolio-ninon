@@ -26,7 +26,7 @@ onMounted(()=>{
     class="realtive w-[250px] h-[250px] lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px]
     flex justify-center items-center rounded-full mt-20 lg:mt-0"
     ref="imageContainer">
-    <div class="absolute w-full h-full rounded-full bg-primary blur-2xl sclale-[0.95] z-[-10]"
+    <div class="absolute w-full h-full rounded-full  blur-2xl sclale-[0.95] z-[-10]"
     ref="glowBackground"></div>
     <img src="/heroPicture.png" alt="hero image" 
     class="rounded-full w-full h-full object-cover relative z-20 border border-white"
